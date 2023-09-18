@@ -29,7 +29,6 @@ struct CurrentWeatherView: View {
     let pub = NotificationCenter.default.publisher(for: NSNotification.Name("statusLocationChange"))
 
     
-    
     var body: some View {
         NavigationView {
             ZStack{
@@ -47,7 +46,6 @@ struct CurrentWeatherView: View {
                     })
                     .modifier(TextFieldClearButton(fieldText: $cityInput,txtNotCorrect: $txtNotCorrect))
                     .padding([.top,.leading,.trailing])
-                    //.padding(.bottom,10)
                     .textFieldStyle(.roundedBorder)
                     .foregroundColor(Color.green)
                     
@@ -102,8 +100,6 @@ struct CurrentWeatherView: View {
                 }
                 
                 if viewModel.alertForNotFoundData {
-
-//                    print("Alert \(alertNotFound)")
                     GeometryReader{ _ in
 //                        proxy in BlurView(style: .light)
                     }

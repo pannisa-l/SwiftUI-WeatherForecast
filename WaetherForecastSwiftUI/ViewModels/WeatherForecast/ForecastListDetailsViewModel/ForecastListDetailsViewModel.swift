@@ -10,13 +10,33 @@ import Foundation
 class ForecastListDetailsViewModel : ObservableObject {
     @Published var weatherForecastViewModel = WeatherForecastViewModel()
     
-    @Published var listTimeForDisplay = [WeatherData]()
+    @Published var fivedayForecast : FivedayForecast = FivedayForecast()
+    @Published var time : [String] = []
     
-    func getListData(listForecast: [FivedayForecast] ,index: Int) {
-        for f in 0..<listForecast[index].weatherData.count {
-            print(listForecast[index].weatherData)
-            print(listForecast[index].weatherData[f])
-            listTimeForDisplay.append(listForecast[index].weatherData[f])
+    func convertDateTime(listForecast: FivedayForecast) {
+        self.fivedayForecast = listForecast
+        let date = Date()
+        let formatter = DateFormatter()
+        var timeString : String
+        
+        for i in 0..<listForecast.weatherData.count {
+            self.fivedayForecast = listForecast
+            print(listForecast.weatherData.count)
+            formatter.timeStyle = .short
+            formatter.timeZone = TimeZone(identifier: "US")
+            
+            let dateTime = formatter.date(from: listForecast.weatherData[i].date ?? "")
+            timeString = formatter.string(from: dateTime ?? date)
+            print(timeString)
+//            formatter.string(from: listForecast.weatherData[i].date)
+//            timeString = formatter.string(from: date)
+//            print(timeString)
+//            time.append(timeString,in)
+            print(self.fivedayForecast.weatherData[i])
+            self.fivedayForecast.weatherData[i].timeForDisplay.append(contentsOf: timeString)
+//            self.fivedayForecast.weatherData[i].dateForDisplay = timeString
+            print(self.fivedayForecast.weatherData[i].timeForDisplay)
+            print(self.fivedayForecast.weatherData)
         }
     }
     

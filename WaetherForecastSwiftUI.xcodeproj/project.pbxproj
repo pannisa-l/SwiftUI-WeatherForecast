@@ -7,18 +7,128 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7E02635D2A8DD70100146988 /* GoogleMaps.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E0263592A8DD3BA00146988 /* GoogleMaps.xcframework */; };
+		7E0263602A8DD70300146988 /* GoogleMapsBase.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E0263582A8DD3B800146988 /* GoogleMapsBase.xcframework */; };
+		7E0263622A8DD70500146988 /* GoogleMapsCore.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E0263572A8DD3B700146988 /* GoogleMapsCore.xcframework */; };
+		7E0263662A8DD79000146988 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E0263652A8DD79000146988 /* Accelerate.framework */; };
+		7E0263682A8DD79700146988 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E0263672A8DD79700146988 /* CoreData.framework */; };
+		7E02636A2A8DD79E00146988 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E0263692A8DD79E00146988 /* CoreGraphics.framework */; };
+		7E02636E2A8DD7BA00146988 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E02636B2A8DD7B900146988 /* CoreLocation.framework */; };
+		7E02636F2A8DD7BA00146988 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E02636C2A8DD7B900146988 /* CoreTelephony.framework */; };
+		7E0263702A8DD7BB00146988 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E02636D2A8DD7BA00146988 /* CoreImage.framework */; };
+		7E0263722A8DD7C500146988 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E0263712A8DD7C500146988 /* GLKit.framework */; };
+		7E0263742A8DD7CD00146988 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E0263732A8DD7CD00146988 /* ImageIO.framework */; };
+		7E0263762A8DD7E700146988 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E0263752A8DD7E700146988 /* libc++.tbd */; };
+		7E0263782A8DD7EF00146988 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E0263772A8DD7EF00146988 /* libz.tbd */; };
+		7E02637A2A8DD7F800146988 /* Metal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E0263792A8DD7F800146988 /* Metal.framework */; };
+		7E02637C2A8DD80100146988 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E02637B2A8DD80100146988 /* OpenGLES.framework */; };
+		7E02637E2A8DD80900146988 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E02637D2A8DD80900146988 /* QuartzCore.framework */; };
+		7E0263802A8DD80F00146988 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E02637F2A8DD80F00146988 /* SystemConfiguration.framework */; };
+		7E0263822A8DD81900146988 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E0263812A8DD81900146988 /* UIKit.framework */; };
+		7E0263842A8DDC1A00146988 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E0263832A8DDC1A00146988 /* MapViewController.swift */; };
+		7E0263872A8DE61C00146988 /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7E0263862A8DE61C00146988 /* GoogleMaps.bundle */; };
+		7E8AF2292A8B26E400D92340 /* TextFieldClearButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8AF2282A8B26E400D92340 /* TextFieldClearButton.swift */; };
+		7E8AF22C2A8B31CF00D92340 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8AF22B2A8B31CF00D92340 /* LocationManager.swift */; };
+		7E8AF22F2A8B646E00D92340 /* SkeletonUI in Frameworks */ = {isa = PBXBuildFile; productRef = 7E8AF22E2A8B646E00D92340 /* SkeletonUI */; };
+		7EBF438A2A9F366A00ACD182 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EBF43892A9F366A00ACD182 /* SplashScreenView.swift */; };
+		7ECE59842AAB00B500D61862 /* TextAlertStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ECE59832AAB00B500D61862 /* TextAlertStyle.swift */; };
+		7ECE59862AAB1DB300D61862 /* BlurViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ECE59852AAB1DB300D61862 /* BlurViewModifier.swift */; };
 		7ED1F0552A77AB9F0070280A /* WaetherForecastSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ED1F0542A77AB9F0070280A /* WaetherForecastSwiftUIApp.swift */; };
-		7ED1F0572A77AB9F0070280A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ED1F0562A77AB9F0070280A /* ContentView.swift */; };
 		7ED1F0592A77ABA10070280A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7ED1F0582A77ABA10070280A /* Assets.xcassets */; };
 		7ED1F05C2A77ABA10070280A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7ED1F05B2A77ABA10070280A /* Preview Assets.xcassets */; };
+		7ED1F0672A77ABE30070280A /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = 7ED1F0662A77ABE30070280A /* SwiftyJSON */; };
+		7ED1F06A2A77ABF80070280A /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 7ED1F0692A77ABF80070280A /* Alamofire */; };
+		7ED1F06D2A77AC370070280A /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 7ED1F06C2A77AC370070280A /* Kingfisher */; };
+		7ED1F06F2A77AC520070280A /* Forecast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ED1F06E2A77AC520070280A /* Forecast.swift */; };
+		7ED1F0712A77AC670070280A /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ED1F0702A77AC670070280A /* Weather.swift */; };
+		7ED1F0742A77AD850070280A /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ED1F0732A77AD850070280A /* HTTPClient.swift */; };
+		7ED1F0762A77AEDA0070280A /* CurrentWaetherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ED1F0752A77AEDA0070280A /* CurrentWaetherViewModel.swift */; };
+		7ED1F0792A77AF1D0070280A /* CurrentWaetherService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ED1F0782A77AF1D0070280A /* CurrentWaetherService.swift */; };
+		7ED1F07B2A77B0F60070280A /* CurrentWeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ED1F07A2A77B0F60070280A /* CurrentWeatherView.swift */; };
+		7ED72E5C2A9C94E1004F3C99 /* ScreenUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ED72E5B2A9C94E1004F3C99 /* ScreenUtil.swift */; };
+		7ED72E5E2A9C9C82004F3C99 /* CurrentDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ED72E5D2A9C9C82004F3C99 /* CurrentDetailView.swift */; };
+		7ED72E742A9CA7B8004F3C99 /* TextStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ED72E732A9CA7B8004F3C99 /* TextStyles.swift */; };
+		7ED8FD102A8CCD80001B8637 /* ExtensionString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ED8FD0F2A8CCD80001B8637 /* ExtensionString.swift */; };
+		7EDB73CF2A93669400754342 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDB73CE2A93669400754342 /* MapView.swift */; };
+		7EDF63CA2A78F33300B4F1C0 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDF63C92A78F33300B4F1C0 /* TabBarView.swift */; };
+		7EDF63D52A78F61000B4F1C0 /* WeatherForecastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDF63D42A78F61000B4F1C0 /* WeatherForecastView.swift */; };
+		7EE711582A839FF400EA5551 /* SplashScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EE711572A839FF400EA5551 /* SplashScreenViewModel.swift */; };
+		7EE845292A80C66E003FD197 /* WaetherForecastViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EE845282A80C66E003FD197 /* WaetherForecastViewModel.swift */; };
+		7EE8452B2A80C6EE003FD197 /* WeatherForecastService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EE8452A2A80C6EE003FD197 /* WeatherForecastService.swift */; };
+		7EE8452D2A80CF34003FD197 /* ExtensionInt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EE8452C2A80CF34003FD197 /* ExtensionInt.swift */; };
+		7EECB2932A823FEC00D33014 /* DetailInForecastFiveDayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EECB2922A823FEC00D33014 /* DetailInForecastFiveDayView.swift */; };
+		7EECB2962A8246C300D33014 /* ForecastListDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EECB2952A8246C300D33014 /* ForecastListDetailsViewModel.swift */; };
+		7EF2E3D72AAF0A5700FD4D12 /* DetailWeatherForecastFiveDayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF2E3D62AAF0A5700FD4D12 /* DetailWeatherForecastFiveDayView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7E0263572A8DD3B700146988 /* GoogleMapsCore.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = GoogleMapsCore.xcframework; sourceTree = "<group>"; };
+		7E0263582A8DD3B800146988 /* GoogleMapsBase.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = GoogleMapsBase.xcframework; sourceTree = "<group>"; };
+		7E0263592A8DD3BA00146988 /* GoogleMaps.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = GoogleMaps.xcframework; sourceTree = "<group>"; };
+		7E0263652A8DD79000146988 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		7E0263672A8DD79700146988 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		7E0263692A8DD79E00146988 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7E02636B2A8DD7B900146988 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		7E02636C2A8DD7B900146988 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		7E02636D2A8DD7BA00146988 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		7E0263712A8DD7C500146988 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		7E0263732A8DD7CD00146988 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		7E0263752A8DD7E700146988 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		7E0263772A8DD7EF00146988 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		7E0263792A8DD7F800146988 /* Metal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Metal.framework; path = System/Library/Frameworks/Metal.framework; sourceTree = SDKROOT; };
+		7E02637B2A8DD80100146988 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		7E02637D2A8DD80900146988 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		7E02637F2A8DD80F00146988 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		7E0263812A8DD81900146988 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7E0263832A8DDC1A00146988 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		7E0263862A8DE61C00146988 /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = "WaetherForecastSwiftUI/Framwork/GoogleMaps.xcframework/ios-arm64_x86_64-simulator/GoogleMaps.framework/Resources/GoogleMaps.bundle"; sourceTree = "<group>"; };
+		7E8AF2282A8B26E400D92340 /* TextFieldClearButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldClearButton.swift; sourceTree = "<group>"; };
+		7E8AF22B2A8B31CF00D92340 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		7EBF43892A9F366A00ACD182 /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
+		7ECE59832AAB00B500D61862 /* TextAlertStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextAlertStyle.swift; sourceTree = "<group>"; };
+		7ECE59852AAB1DB300D61862 /* BlurViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurViewModifier.swift; sourceTree = "<group>"; };
 		7ED1F0512A77AB9F0070280A /* WaetherForecastSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WaetherForecastSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7ED1F0542A77AB9F0070280A /* WaetherForecastSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaetherForecastSwiftUIApp.swift; sourceTree = "<group>"; };
-		7ED1F0562A77AB9F0070280A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7ED1F0582A77ABA10070280A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7ED1F05B2A77ABA10070280A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7ED1F06E2A77AC520070280A /* Forecast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Forecast.swift; sourceTree = "<group>"; };
+		7ED1F0702A77AC670070280A /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
+		7ED1F0732A77AD850070280A /* HTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClient.swift; sourceTree = "<group>"; };
+		7ED1F0752A77AEDA0070280A /* CurrentWaetherViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentWaetherViewModel.swift; sourceTree = "<group>"; };
+		7ED1F0782A77AF1D0070280A /* CurrentWaetherService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentWaetherService.swift; sourceTree = "<group>"; };
+		7ED1F07A2A77B0F60070280A /* CurrentWeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentWeatherView.swift; sourceTree = "<group>"; };
+		7ED72E5B2A9C94E1004F3C99 /* ScreenUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenUtil.swift; sourceTree = "<group>"; };
+		7ED72E5D2A9C9C82004F3C99 /* CurrentDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentDetailView.swift; sourceTree = "<group>"; };
+		7ED72E612A9CA78F004F3C99 /* Kanit-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Kanit-BoldItalic.ttf"; path = "../../../../../../../Downloads/bgios/BamsGuardV1/ViewLayout/Font/Kanit-BoldItalic.ttf"; sourceTree = "<group>"; };
+		7ED72E622A9CA78F004F3C99 /* Kanit-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Kanit-ExtraLightItalic.ttf"; path = "../../../../../../../Downloads/bgios/BamsGuardV1/ViewLayout/Font/Kanit-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		7ED72E632A9CA78F004F3C99 /* Kanit-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Kanit-Medium.ttf"; path = "../../../../../../../Downloads/bgios/BamsGuardV1/ViewLayout/Font/Kanit-Medium.ttf"; sourceTree = "<group>"; };
+		7ED72E642A9CA78F004F3C99 /* Kanit-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Kanit-LightItalic.ttf"; path = "../../../../../../../Downloads/bgios/BamsGuardV1/ViewLayout/Font/Kanit-LightItalic.ttf"; sourceTree = "<group>"; };
+		7ED72E652A9CA78F004F3C99 /* Kanit-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Kanit-Bold.ttf"; path = "../../../../../../../Downloads/bgios/BamsGuardV1/ViewLayout/Font/Kanit-Bold.ttf"; sourceTree = "<group>"; };
+		7ED72E662A9CA78F004F3C99 /* Kanit-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Kanit-ExtraBold.ttf"; path = "../../../../../../../Downloads/bgios/BamsGuardV1/ViewLayout/Font/Kanit-ExtraBold.ttf"; sourceTree = "<group>"; };
+		7ED72E672A9CA78F004F3C99 /* Kanit-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Kanit-ExtraBoldItalic.ttf"; path = "../../../../../../../Downloads/bgios/BamsGuardV1/ViewLayout/Font/Kanit-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		7ED72E682A9CA790004F3C99 /* Kanit-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Kanit-MediumItalic.ttf"; path = "../../../../../../../Downloads/bgios/BamsGuardV1/ViewLayout/Font/Kanit-MediumItalic.ttf"; sourceTree = "<group>"; };
+		7ED72E692A9CA790004F3C99 /* Kanit-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Kanit-ExtraLight.ttf"; path = "../../../../../../../Downloads/bgios/BamsGuardV1/ViewLayout/Font/Kanit-ExtraLight.ttf"; sourceTree = "<group>"; };
+		7ED72E6A2A9CA790004F3C99 /* Kanit-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Kanit-Black.ttf"; path = "../../../../../../../Downloads/bgios/BamsGuardV1/ViewLayout/Font/Kanit-Black.ttf"; sourceTree = "<group>"; };
+		7ED72E6B2A9CA790004F3C99 /* Kanit-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Kanit-ThinItalic.ttf"; path = "../../../../../../../Downloads/bgios/BamsGuardV1/ViewLayout/Font/Kanit-ThinItalic.ttf"; sourceTree = "<group>"; };
+		7ED72E6C2A9CA790004F3C99 /* Kanit-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Kanit-Italic.ttf"; path = "../../../../../../../Downloads/bgios/BamsGuardV1/ViewLayout/Font/Kanit-Italic.ttf"; sourceTree = "<group>"; };
+		7ED72E6D2A9CA790004F3C99 /* Kanit-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Kanit-Light.ttf"; path = "../../../../../../../Downloads/bgios/BamsGuardV1/ViewLayout/Font/Kanit-Light.ttf"; sourceTree = "<group>"; };
+		7ED72E6E2A9CA790004F3C99 /* Kanit-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Kanit-Regular.ttf"; path = "../../../../../../../Downloads/bgios/BamsGuardV1/ViewLayout/Font/Kanit-Regular.ttf"; sourceTree = "<group>"; };
+		7ED72E6F2A9CA790004F3C99 /* Kanit-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Kanit-SemiBold.ttf"; path = "../../../../../../../Downloads/bgios/BamsGuardV1/ViewLayout/Font/Kanit-SemiBold.ttf"; sourceTree = "<group>"; };
+		7ED72E702A9CA791004F3C99 /* Kanit-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Kanit-SemiBoldItalic.ttf"; path = "../../../../../../../Downloads/bgios/BamsGuardV1/ViewLayout/Font/Kanit-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		7ED72E712A9CA791004F3C99 /* Kanit-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Kanit-Thin.ttf"; path = "../../../../../../../Downloads/bgios/BamsGuardV1/ViewLayout/Font/Kanit-Thin.ttf"; sourceTree = "<group>"; };
+		7ED72E722A9CA791004F3C99 /* Kanit-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Kanit-BlackItalic.ttf"; path = "../../../../../../../Downloads/bgios/BamsGuardV1/ViewLayout/Font/Kanit-BlackItalic.ttf"; sourceTree = "<group>"; };
+		7ED72E732A9CA7B8004F3C99 /* TextStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextStyles.swift; sourceTree = "<group>"; };
+		7ED8FD0F2A8CCD80001B8637 /* ExtensionString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionString.swift; sourceTree = "<group>"; };
+		7EDB73CE2A93669400754342 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		7EDF63C92A78F33300B4F1C0 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		7EDF63D42A78F61000B4F1C0 /* WeatherForecastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherForecastView.swift; sourceTree = "<group>"; };
+		7EE711572A839FF400EA5551 /* SplashScreenViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenViewModel.swift; sourceTree = "<group>"; };
+		7EE845282A80C66E003FD197 /* WaetherForecastViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaetherForecastViewModel.swift; sourceTree = "<group>"; };
+		7EE8452A2A80C6EE003FD197 /* WeatherForecastService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherForecastService.swift; sourceTree = "<group>"; };
+		7EE8452C2A80CF34003FD197 /* ExtensionInt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionInt.swift; sourceTree = "<group>"; };
+		7EECB2922A823FEC00D33014 /* DetailInForecastFiveDayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailInForecastFiveDayView.swift; sourceTree = "<group>"; };
+		7EECB2952A8246C300D33014 /* ForecastListDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastListDetailsViewModel.swift; sourceTree = "<group>"; };
+		7EF2E3D62AAF0A5700FD4D12 /* DetailWeatherForecastFiveDayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailWeatherForecastFiveDayView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,17 +136,126 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E0263822A8DD81900146988 /* UIKit.framework in Frameworks */,
+				7E0263802A8DD80F00146988 /* SystemConfiguration.framework in Frameworks */,
+				7E02637E2A8DD80900146988 /* QuartzCore.framework in Frameworks */,
+				7E02637C2A8DD80100146988 /* OpenGLES.framework in Frameworks */,
+				7E02637A2A8DD7F800146988 /* Metal.framework in Frameworks */,
+				7E0263782A8DD7EF00146988 /* libz.tbd in Frameworks */,
+				7E0263762A8DD7E700146988 /* libc++.tbd in Frameworks */,
+				7E0263742A8DD7CD00146988 /* ImageIO.framework in Frameworks */,
+				7E0263722A8DD7C500146988 /* GLKit.framework in Frameworks */,
+				7E02636E2A8DD7BA00146988 /* CoreLocation.framework in Frameworks */,
+				7E02636F2A8DD7BA00146988 /* CoreTelephony.framework in Frameworks */,
+				7E0263702A8DD7BB00146988 /* CoreImage.framework in Frameworks */,
+				7E02636A2A8DD79E00146988 /* CoreGraphics.framework in Frameworks */,
+				7E0263682A8DD79700146988 /* CoreData.framework in Frameworks */,
+				7E0263662A8DD79000146988 /* Accelerate.framework in Frameworks */,
+				7ED1F06D2A77AC370070280A /* Kingfisher in Frameworks */,
+				7E8AF22F2A8B646E00D92340 /* SkeletonUI in Frameworks */,
+				7ED1F0672A77ABE30070280A /* SwiftyJSON in Frameworks */,
+				7E0263602A8DD70300146988 /* GoogleMapsBase.xcframework in Frameworks */,
+				7E0263622A8DD70500146988 /* GoogleMapsCore.xcframework in Frameworks */,
+				7E02635D2A8DD70100146988 /* GoogleMaps.xcframework in Frameworks */,
+				7ED1F06A2A77ABF80070280A /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7E0263562A8DD35200146988 /* Framwork */ = {
+			isa = PBXGroup;
+			children = (
+				7E0263592A8DD3BA00146988 /* GoogleMaps.xcframework */,
+				7E0263582A8DD3B800146988 /* GoogleMapsBase.xcframework */,
+				7E0263572A8DD3B700146988 /* GoogleMapsCore.xcframework */,
+			);
+			path = Framwork;
+			sourceTree = "<group>";
+		};
+		7E0263642A8DD79000146988 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7E0263812A8DD81900146988 /* UIKit.framework */,
+				7E02637F2A8DD80F00146988 /* SystemConfiguration.framework */,
+				7E02637D2A8DD80900146988 /* QuartzCore.framework */,
+				7E02637B2A8DD80100146988 /* OpenGLES.framework */,
+				7E0263792A8DD7F800146988 /* Metal.framework */,
+				7E0263772A8DD7EF00146988 /* libz.tbd */,
+				7E0263752A8DD7E700146988 /* libc++.tbd */,
+				7E0263732A8DD7CD00146988 /* ImageIO.framework */,
+				7E0263712A8DD7C500146988 /* GLKit.framework */,
+				7E02636D2A8DD7BA00146988 /* CoreImage.framework */,
+				7E02636B2A8DD7B900146988 /* CoreLocation.framework */,
+				7E02636C2A8DD7B900146988 /* CoreTelephony.framework */,
+				7E0263692A8DD79E00146988 /* CoreGraphics.framework */,
+				7E0263672A8DD79700146988 /* CoreData.framework */,
+				7E0263652A8DD79000146988 /* Accelerate.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7E5343C62A95FA8200FA1E56 /* MapView */ = {
+			isa = PBXGroup;
+			children = (
+				7EDB73CE2A93669400754342 /* MapView.swift */,
+				7E5343C72A95FA8C00FA1E56 /* Controller */,
+			);
+			path = MapView;
+			sourceTree = "<group>";
+		};
+		7E5343C72A95FA8C00FA1E56 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7E0263832A8DDC1A00146988 /* MapViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7E8AF2272A8B269B00D92340 /* ViewLayout */ = {
+			isa = PBXGroup;
+			children = (
+				7ED72E602A9CA74E004F3C99 /* Style */,
+				7ED72E5F2A9CA744004F3C99 /* Font */,
+				7ECE59852AAB1DB300D61862 /* BlurViewModifier.swift */,
+			);
+			path = ViewLayout;
+			sourceTree = "<group>";
+		};
+		7E8AF22A2A8B282C00D92340 /* Helps */ = {
+			isa = PBXGroup;
+			children = (
+				7ED72E5B2A9C94E1004F3C99 /* ScreenUtil.swift */,
+				7EE8452C2A80CF34003FD197 /* ExtensionInt.swift */,
+				7ED8FD0F2A8CCD80001B8637 /* ExtensionString.swift */,
+			);
+			path = Helps;
+			sourceTree = "<group>";
+		};
+		7EBF43882A9F364400ACD182 /* SplashScreen */ = {
+			isa = PBXGroup;
+			children = (
+				7EBF43892A9F366A00ACD182 /* SplashScreenView.swift */,
+			);
+			path = SplashScreen;
+			sourceTree = "<group>";
+		};
+		7ED16B842AA049BD001D4230 /* SplashScreenViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				7EE711572A839FF400EA5551 /* SplashScreenViewModel.swift */,
+			);
+			path = SplashScreenViewModel;
+			sourceTree = "<group>";
+		};
 		7ED1F0482A77AB9F0070280A = {
 			isa = PBXGroup;
 			children = (
+				7E0263862A8DE61C00146988 /* GoogleMaps.bundle */,
 				7ED1F0532A77AB9F0070280A /* WaetherForecastSwiftUI */,
 				7ED1F0522A77AB9F0070280A /* Products */,
+				7E0263642A8DD79000146988 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,9 +270,15 @@
 		7ED1F0532A77AB9F0070280A /* WaetherForecastSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				7EDF63CD2A78F3C300B4F1C0 /* Utils */,
+				7ED1F0772A77AF030070280A /* Network */,
+				7ED1F0722A77AD520070280A /* Services */,
+				7ED1F0642A77ABC50070280A /* Views */,
+				7ED1F0632A77ABB50070280A /* ViewModels */,
+				7ED1F0622A77ABAF0070280A /* Models */,
 				7ED1F0542A77AB9F0070280A /* WaetherForecastSwiftUIApp.swift */,
-				7ED1F0562A77AB9F0070280A /* ContentView.swift */,
 				7ED1F0582A77ABA10070280A /* Assets.xcassets */,
+				7E0263562A8DD35200146988 /* Framwork */,
 				7ED1F05A2A77ABA10070280A /* Preview Content */,
 			);
 			path = WaetherForecastSwiftUI;
@@ -65,6 +290,183 @@
 				7ED1F05B2A77ABA10070280A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7ED1F0622A77ABAF0070280A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7ED1F06E2A77AC520070280A /* Forecast.swift */,
+				7ED1F0702A77AC670070280A /* Weather.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7ED1F0632A77ABB50070280A /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				7ED16B842AA049BD001D4230 /* SplashScreenViewModel */,
+				7EE711562A839FE000EA5551 /* TabViewModel */,
+				7EDF63DA2A78F6F500B4F1C0 /* Currentweather */,
+				7EDF63D92A78F6F100B4F1C0 /* WeatherForecast */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		7ED1F0642A77ABC50070280A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7EF2E3D52AAF09E100FD4D12 /* Forecast */,
+				7EF2E3D42AAF09C000FD4D12 /* Current */,
+				7EDF63D62A78F6BE00B4F1C0 /* TabBarView */,
+				7EBF43882A9F364400ACD182 /* SplashScreen */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7ED1F0722A77AD520070280A /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				7ED1F0782A77AF1D0070280A /* CurrentWaetherService.swift */,
+				7EE8452A2A80C6EE003FD197 /* WeatherForecastService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		7ED1F0772A77AF030070280A /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				7ED1F0732A77AD850070280A /* HTTPClient.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		7ED72E5F2A9CA744004F3C99 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				7ED72E6A2A9CA790004F3C99 /* Kanit-Black.ttf */,
+				7ED72E722A9CA791004F3C99 /* Kanit-BlackItalic.ttf */,
+				7ED72E652A9CA78F004F3C99 /* Kanit-Bold.ttf */,
+				7ED72E612A9CA78F004F3C99 /* Kanit-BoldItalic.ttf */,
+				7ED72E662A9CA78F004F3C99 /* Kanit-ExtraBold.ttf */,
+				7ED72E672A9CA78F004F3C99 /* Kanit-ExtraBoldItalic.ttf */,
+				7ED72E692A9CA790004F3C99 /* Kanit-ExtraLight.ttf */,
+				7ED72E622A9CA78F004F3C99 /* Kanit-ExtraLightItalic.ttf */,
+				7ED72E6C2A9CA790004F3C99 /* Kanit-Italic.ttf */,
+				7ED72E6D2A9CA790004F3C99 /* Kanit-Light.ttf */,
+				7ED72E642A9CA78F004F3C99 /* Kanit-LightItalic.ttf */,
+				7ED72E632A9CA78F004F3C99 /* Kanit-Medium.ttf */,
+				7ED72E682A9CA790004F3C99 /* Kanit-MediumItalic.ttf */,
+				7ED72E6E2A9CA790004F3C99 /* Kanit-Regular.ttf */,
+				7ED72E6F2A9CA790004F3C99 /* Kanit-SemiBold.ttf */,
+				7ED72E702A9CA791004F3C99 /* Kanit-SemiBoldItalic.ttf */,
+				7ED72E712A9CA791004F3C99 /* Kanit-Thin.ttf */,
+				7ED72E6B2A9CA790004F3C99 /* Kanit-ThinItalic.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		7ED72E602A9CA74E004F3C99 /* Style */ = {
+			isa = PBXGroup;
+			children = (
+				7ED72E732A9CA7B8004F3C99 /* TextStyles.swift */,
+				7E8AF2282A8B26E400D92340 /* TextFieldClearButton.swift */,
+				7ECE59832AAB00B500D61862 /* TextAlertStyle.swift */,
+			);
+			path = Style;
+			sourceTree = "<group>";
+		};
+		7EDF63CD2A78F3C300B4F1C0 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				7E8AF22A2A8B282C00D92340 /* Helps */,
+				7E8AF2272A8B269B00D92340 /* ViewLayout */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		7EDF63D62A78F6BE00B4F1C0 /* TabBarView */ = {
+			isa = PBXGroup;
+			children = (
+				7EDF63C92A78F33300B4F1C0 /* TabBarView.swift */,
+			);
+			path = TabBarView;
+			sourceTree = "<group>";
+		};
+		7EDF63D72A78F6CD00B4F1C0 /* CurrentWeather */ = {
+			isa = PBXGroup;
+			children = (
+				7ED1F07A2A77B0F60070280A /* CurrentWeatherView.swift */,
+				7ED72E5D2A9C9C82004F3C99 /* CurrentDetailView.swift */,
+			);
+			path = CurrentWeather;
+			sourceTree = "<group>";
+		};
+		7EDF63D82A78F6DE00B4F1C0 /* WeatherForecast */ = {
+			isa = PBXGroup;
+			children = (
+				7EDF63D42A78F61000B4F1C0 /* WeatherForecastView.swift */,
+				7EF2E3D62AAF0A5700FD4D12 /* DetailWeatherForecastFiveDayView.swift */,
+			);
+			path = WeatherForecast;
+			sourceTree = "<group>";
+		};
+		7EDF63D92A78F6F100B4F1C0 /* WeatherForecast */ = {
+			isa = PBXGroup;
+			children = (
+				7EECB2942A8246A100D33014 /* ForecastListDetailsViewModel */,
+				7EE845282A80C66E003FD197 /* WaetherForecastViewModel.swift */,
+			);
+			path = WeatherForecast;
+			sourceTree = "<group>";
+		};
+		7EDF63DA2A78F6F500B4F1C0 /* Currentweather */ = {
+			isa = PBXGroup;
+			children = (
+				7ED1F0752A77AEDA0070280A /* CurrentWaetherViewModel.swift */,
+			);
+			path = Currentweather;
+			sourceTree = "<group>";
+		};
+		7EE711562A839FE000EA5551 /* TabViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				7E8AF22B2A8B31CF00D92340 /* LocationManager.swift */,
+			);
+			path = TabViewModel;
+			sourceTree = "<group>";
+		};
+		7EECB2912A823FC700D33014 /* DetailInForecastFiveDayView */ = {
+			isa = PBXGroup;
+			children = (
+				7EECB2922A823FEC00D33014 /* DetailInForecastFiveDayView.swift */,
+			);
+			path = DetailInForecastFiveDayView;
+			sourceTree = "<group>";
+		};
+		7EECB2942A8246A100D33014 /* ForecastListDetailsViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				7EECB2952A8246C300D33014 /* ForecastListDetailsViewModel.swift */,
+			);
+			path = ForecastListDetailsViewModel;
+			sourceTree = "<group>";
+		};
+		7EF2E3D42AAF09C000FD4D12 /* Current */ = {
+			isa = PBXGroup;
+			children = (
+				7E5343C62A95FA8200FA1E56 /* MapView */,
+				7EDF63D72A78F6CD00B4F1C0 /* CurrentWeather */,
+			);
+			path = Current;
+			sourceTree = "<group>";
+		};
+		7EF2E3D52AAF09E100FD4D12 /* Forecast */ = {
+			isa = PBXGroup;
+			children = (
+				7EECB2912A823FC700D33014 /* DetailInForecastFiveDayView */,
+				7EDF63D82A78F6DE00B4F1C0 /* WeatherForecast */,
+			);
+			path = Forecast;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +485,12 @@
 			dependencies = (
 			);
 			name = WaetherForecastSwiftUI;
+			packageProductDependencies = (
+				7ED1F0662A77ABE30070280A /* SwiftyJSON */,
+				7ED1F0692A77ABF80070280A /* Alamofire */,
+				7ED1F06C2A77AC370070280A /* Kingfisher */,
+				7E8AF22E2A8B646E00D92340 /* SkeletonUI */,
+			);
 			productName = WaetherForecastSwiftUI;
 			productReference = 7ED1F0512A77AB9F0070280A /* WaetherForecastSwiftUI.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +519,12 @@
 				Base,
 			);
 			mainGroup = 7ED1F0482A77AB9F0070280A;
+			packageReferences = (
+				7ED1F0652A77ABE30070280A /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
+				7ED1F0682A77ABF80070280A /* XCRemoteSwiftPackageReference "Alamofire" */,
+				7ED1F06B2A77AC370070280A /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				7E8AF22D2A8B646E00D92340 /* XCRemoteSwiftPackageReference "SkeletonUI" */,
+			);
 			productRefGroup = 7ED1F0522A77AB9F0070280A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,6 +541,7 @@
 			files = (
 				7ED1F05C2A77ABA10070280A /* Preview Assets.xcassets in Resources */,
 				7ED1F0592A77ABA10070280A /* Assets.xcassets in Resources */,
+				7E0263872A8DE61C00146988 /* GoogleMaps.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +552,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7ED1F0572A77AB9F0070280A /* ContentView.swift in Sources */,
+				7ECE59862AAB1DB300D61862 /* BlurViewModifier.swift in Sources */,
+				7ED1F0712A77AC670070280A /* Weather.swift in Sources */,
+				7E8AF2292A8B26E400D92340 /* TextFieldClearButton.swift in Sources */,
+				7EDF63CA2A78F33300B4F1C0 /* TabBarView.swift in Sources */,
+				7ED72E5E2A9C9C82004F3C99 /* CurrentDetailView.swift in Sources */,
+				7ED72E5C2A9C94E1004F3C99 /* ScreenUtil.swift in Sources */,
+				7EF2E3D72AAF0A5700FD4D12 /* DetailWeatherForecastFiveDayView.swift in Sources */,
+				7E8AF22C2A8B31CF00D92340 /* LocationManager.swift in Sources */,
+				7EE845292A80C66E003FD197 /* WaetherForecastViewModel.swift in Sources */,
+				7ED1F07B2A77B0F60070280A /* CurrentWeatherView.swift in Sources */,
+				7EE711582A839FF400EA5551 /* SplashScreenViewModel.swift in Sources */,
+				7E0263842A8DDC1A00146988 /* MapViewController.swift in Sources */,
+				7EECB2932A823FEC00D33014 /* DetailInForecastFiveDayView.swift in Sources */,
+				7ED1F0742A77AD850070280A /* HTTPClient.swift in Sources */,
+				7ECE59842AAB00B500D61862 /* TextAlertStyle.swift in Sources */,
+				7EE8452D2A80CF34003FD197 /* ExtensionInt.swift in Sources */,
+				7EE8452B2A80C6EE003FD197 /* WeatherForecastService.swift in Sources */,
+				7ED1F06F2A77AC520070280A /* Forecast.swift in Sources */,
+				7EDF63D52A78F61000B4F1C0 /* WeatherForecastView.swift in Sources */,
+				7ED1F0792A77AF1D0070280A /* CurrentWaetherService.swift in Sources */,
+				7ED72E742A9CA7B8004F3C99 /* TextStyles.swift in Sources */,
+				7ED8FD102A8CCD80001B8637 /* ExtensionString.swift in Sources */,
 				7ED1F0552A77AB9F0070280A /* WaetherForecastSwiftUIApp.swift in Sources */,
+				7EDB73CF2A93669400754342 /* MapView.swift in Sources */,
+				7ED1F0762A77AEDA0070280A /* CurrentWaetherViewModel.swift in Sources */,
+				7EECB2962A8246C300D33014 /* ForecastListDetailsViewModel.swift in Sources */,
+				7EBF438A2A9F366A00ACD182 /* SplashScreenView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +709,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"WaetherForecastSwiftUI/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -279,8 +720,12 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = swiftui.WeatherForCaset.WaetherForecastSwiftUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -297,6 +742,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"WaetherForecastSwiftUI/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -307,8 +753,12 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = swiftui.WeatherForCaset.WaetherForecastSwiftUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -337,6 +787,64 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7E8AF22D2A8B646E00D92340 /* XCRemoteSwiftPackageReference "SkeletonUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/CSolanaM/SkeletonUI.git";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		7ED1F0652A77ABE30070280A /* XCRemoteSwiftPackageReference "SwiftyJSON" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftyJSON/SwiftyJSON.git";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		7ED1F0682A77ABF80070280A /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 5.7.0;
+			};
+		};
+		7ED1F06B2A77AC370070280A /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 7.9.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7E8AF22E2A8B646E00D92340 /* SkeletonUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7E8AF22D2A8B646E00D92340 /* XCRemoteSwiftPackageReference "SkeletonUI" */;
+			productName = SkeletonUI;
+		};
+		7ED1F0662A77ABE30070280A /* SwiftyJSON */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7ED1F0652A77ABE30070280A /* XCRemoteSwiftPackageReference "SwiftyJSON" */;
+			productName = SwiftyJSON;
+		};
+		7ED1F0692A77ABF80070280A /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7ED1F0682A77ABF80070280A /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		7ED1F06C2A77AC370070280A /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7ED1F06B2A77AC370070280A /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 7ED1F0492A77AB9F0070280A /* Project object */;
 }

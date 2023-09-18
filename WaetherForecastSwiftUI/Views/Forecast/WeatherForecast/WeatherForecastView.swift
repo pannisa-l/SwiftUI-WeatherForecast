@@ -8,10 +8,13 @@
 import SwiftUI
 import Kingfisher
 
-struct WeatherForecastView: View {
+struct WeatherForecastFiveDayView: View {
     @ObservedObject var viewModel = WeatherForecastViewModel()
     @ObservedObject var splashScreenViewModel = SplashScreenViewModel()
+    
     @State var screenUtil = ScreenUtil()
+    @State var rootoViewDetails : Bool = false
+    
     
     init() {
         UIPageControl.appearance().currentPageIndicatorTintColor = .systemYellow
@@ -19,16 +22,15 @@ struct WeatherForecastView: View {
     }
     
     var body: some View {
-        NavigationView {
+        NavigationStack {
             VStack(alignment: .center) {
                 TabView(){
                     ForEach(0..<viewModel.fivedayForecast.count, id:\.self) { index in
-                        DetailWeatherFromForecastView(fivedayForecast: $viewModel.fivedayForecast[index])
-                            .frame(width: screenUtil.getWidth(300),height: screenUtil.getHeight(550))
-                            .padding()
-                            .background(.yellow)
-                    }.cornerRadius(10)
-                        .padding(.bottom,screenUtil.getHeight(50))
+                        DetailWeatherForecastFiveDayView(fivedayForecast: $viewModel.fivedayForecast,indexList: index)
+                            .frame(width: screenUtil.getWidth(350),height: screenUtil.getHeight(550),alignment: .top)
+                    }
+                    .cornerRadius(10)
+                    .padding(.bottom,screenUtil.getHeight(50))
                 }.tabViewStyle(PageTabViewStyle(indexDisplayMode: .always))
             }.navigationBarTitle(splashScreenViewModel.location != "" ? splashScreenViewModel.location : " ", displayMode: .inline)
                 .shadow(color: Color.black.opacity(0.2), radius: 4, x: 0, y: 1)
@@ -41,23 +43,8 @@ struct WeatherForecastView: View {
     }
 }
 
-struct WeatherForecastView_Previews: PreviewProvider {
+struct WeatherForecastFiveDayView_Previews: PreviewProvider {
     static var previews: some View {
-        WeatherForecastView()
-    }
-}
-
-
-struct DetailWeatherFromForecastView: View {
-    @Binding var fivedayForecast : FivedayForecast
-    
-    var body: some View {
-        VStack{
-            VStack(alignment: .leading){
-                Text("\(fivedayForecast.day ?? "")")
-                Text("\(Int((fivedayForecast.weatherData[0].temp ?? 0) - 273.15))  °C")
-                
-            }
-        }
+        WeatherForecastFiveDayView()
     }
 }

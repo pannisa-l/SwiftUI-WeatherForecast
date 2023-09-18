@@ -12,7 +12,7 @@ import SwiftUI
 struct TextFieldClearButton: ViewModifier {
     @Binding var fieldText: String
     @Binding var txtNotCorrect: Bool
-    @ObservedObject var tabViewModel = TabViewModel()
+    @ObservedObject var splashScreenViewModel = SplashScreenViewModel()
     @ObservedObject var currenviewModel = CurrentWaetherViewModel()
     
     func body(content: Content) -> some View {
